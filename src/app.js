@@ -1,5 +1,6 @@
 const express = require('express')
-const { createProduct, getProducts  } = require('./mongo')
+// const { createProduct, getProducts  } = require('./mongo')
+const { createProduct, getProducts } = require('./mongoose');
 
 const app = express()
 const PORT = 3000
